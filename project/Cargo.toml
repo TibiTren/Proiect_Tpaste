@@ -1,0 +1,28 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7"
+axum-extra = { version = "0.9", features = ["cookie"], default-features = false }
+
+chrono = { version = "0.4", features = ["serde"] }
+
+
+reqwest = { version = "0.12", features = ["cookies", "json"] }
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+
+uuid = { version = "1", features = ["v4"] }
+
+time = "0.3"
+tower-cookies = "0.10"
+
+argon2 = "0.5"
+password-hash = "0.5"
+rand = "0.8"
+

@@ -1,0 +1,11 @@
+{
+  "user": {
+    "password": "$argon2id$v=19$m=19456,t=2,p=1$KdeN2HQEeEjFJdPqJ22+OA$ylXJzvuRGjMEfPOvX/Wino4zJPO0aKNUFgOn2ce5W8o"
+  },
+  "Andrei": {
+    "password": "$argon2id$v=19$m=19456,t=2,p=1$gDTBWt+x2HHM1y95SHnPmw$oHBvZoPm2ThtkkQNRTVNJLrg6K3kk8RRA4AwGVz6gqk"
+  },
+  "Tibi": {
+    "password": "$argon2id$v=19$m=19456,t=2,p=1$QVYPgqlu3T3vD9CPCHHmGA$eq6cIXtSY/1Fm6dDZONxYaMNtdFCCqZNV8VqXFwW50I"
+  }
+}
